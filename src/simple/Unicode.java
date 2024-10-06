@@ -8,6 +8,6 @@ public class Unicode {
         char c = '\u0646';
         char b = '\u062F';
         char a = '\u0627';
-        System.out.println(""+a+b+c+d+e+f);
+        System.out.println(""+a+""+b+""+c+""+d+""+e+""+f);
     };
 }
