@@ -10,7 +10,7 @@ public class Division {
         int divior = sc.nextInt();
 
         int division=Math.floorDiv(dividend, divior);
-        int modulus =Math.floorDiv(dividend, divior);
+        int modulus =Math.floorMod(dividend, divior);
         
         System.out.println("FloorDivision : "+ division );
         System.out.println("FloorModulus : "+ modulus );

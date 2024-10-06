@@ -17,7 +17,7 @@ public class Sumdigitnum {
             int d = num%10;
             num=num/10;
             int e = num%10;
-            num=num/10;
+            // num = num/10;
             int sum = a+b+c+d+e;
             System.out.println(sum);
         }
